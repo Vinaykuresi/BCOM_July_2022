@@ -1,0 +1,85 @@
+Criteria 		Python
+Type of execution    Interpreted
+Websites 		Yahoo, Nokia, Google
+
+Data :
+
+DataTypes :
+
+ex : 
+# numerical Data Type
+print(10+3)
+print(4.0/2)
+
+13
+2.0
+
+# String Data Type
+print("Hello " + "World")
+print("Hello".upper())
+print("Hello".lower())
+
+Hello World
+HELLO
+hello
+
+common Datatypes used in Python : 
+Category		Python
+Numeric		int	-> 2, 23, 1000000
+		long	-> 5464684564675467546465456
+		complex	-> a+ib
+
+NUmeric with 	float        ->  4.7576576567, 0.67
+decimal point
+
+Alphanumeric	String	-> "Vinay", "sd345", "78drt"
+
+Boolean		boolean   -> true, false
+
+Operators :
+0 ->False -> f
+1 -> True -> t
+
+In "and" operator in any value is false then the resultant will be false
+A	B	A and B
+T	T	T
+T	F	F
+F	T	F
+F	F	F
+
+In "or" operator in any value is TRUE then the resultant will be TRUE
+A	B	A or B
+T	T	T
+T	F	T
+F	T	T
+F	F	F
+
+NOT Operator : 
+A	Not (~)A
+T	F
+F	T
+
+Variable :
+	Steps to  solve a problem and usage of Varibales :
+		1) Input
+		2) Process
+		3) Output
+ex: 
+student_1 = "Anitha"
+student_2 = "Lavanya"
+num = 100
+
+ex2 : 
+# Inout Gathering
+total_planes = 100
+take_off_planes = 23
+landed_planes = 43
+
+# Processing the Input
+current_no_of_planes = total_planes + landed_planes - take_off_planes
+
+# Display the Output
+print("Current no of Planes : ", current_no_of_planes)
+
+
+
